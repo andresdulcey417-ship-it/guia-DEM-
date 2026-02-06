@@ -1,0 +1,33 @@
+.closet {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #c8f10e;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #06c0e0;
+}
+
+.closet__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.closet__shoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.closet__shoes-item {
+  padding: 10px;
+  background-color: #22cf13;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+.boton:hover {
+  color: whitesmoke;
+  background-color: #f5141f;
+  animation-duration: 5s;
+}
